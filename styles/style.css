@@ -577,6 +577,9 @@ flex-wrap: wrap;
     .i-cards{
        flex-wrap: wrap;
     }
+    .contai{
+        flex-direction: column;
+    }
 }
 
 
