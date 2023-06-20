@@ -29,7 +29,7 @@ body{
 }
 .bg1{
     background-repeat: no-repeat;
-    background-image: url(/фоточки/nbnnb-min.jpg);
+    background-image: url(../фоточки/nbnnb-min.jpg);
  background-size: 100vw;
  background-size: cover;
 
