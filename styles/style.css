@@ -25,11 +25,12 @@ body{
     color: #fff;
     height: 100%;
     background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+
 }
 .bg1{
     background-repeat: no-repeat;
-    background-image: url(../фоточки/nbnnb-min.jpg);
+    background-image: url("../фоточки/nbnnb-min.jpg");
  background-size: 100vw;
  background-size: cover;
 
@@ -37,7 +38,7 @@ body{
 }
 .bg2{
     background-repeat: no-repeat;
-    background-image: url("../фоточки/bg2.png");
+    background-image: url(../фоточки/bg2.png);
  background-size: 100vw;
  background-size: cover;
 
@@ -358,7 +359,7 @@ input::target-text{
     background-color: firebrick;
 }
 .information{
-    background-image: url("../фоточки/c0a78be8f70644202aa35c1e30709754.jpeg");
+    background-image: url(../фоточки/c0a78be8f70644202aa35c1e30709754.jpeg);
     background-repeat: no-repeat;
     background-size: cover ;
 margin-top: 40px;
@@ -579,6 +580,12 @@ flex-wrap: wrap;
     }
     .contai{
         flex-direction: column;
+    }
+    .choose-left-img{
+        width: 100%;
+    }
+    .chose_card{
+        flex-wrap: wrap;
     }
 }
 
